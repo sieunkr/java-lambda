@@ -10,6 +10,12 @@ public class Main {
         System.out.println(Score.getCeilAndSum(scores));
         System.out.println(Score.getCeilAndSumByStream(scores));
 
+        final List<String> names = Arrays.asList("eddy", "jung", "lion");
+
+        //ForEach.printList(names);
+        //ForEach.printListByForEach(names);
+        //ForEach.printListByLambda(names);
+        ForEach.printListByLambdaMethodRef(names);
 
     }
 }
