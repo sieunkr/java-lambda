@@ -17,5 +17,10 @@ public class Main {
         //ForEach.printListByLambda(names);
         ForEach.printListByLambdaMethodRef(names);
 
+        Example01 example01 = new Example01();
+        example01.anotherExample();
+
+        example01.anotherExample02("test");
+
     }
 }
